@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'IntegralCF_heavy';
+    src: url(../portfolio/IntegralCF-Heavy.otf);
+}
+ @font-face {
+    font-family: 'IntegralCF_bold';
+    src: url(../IntegralCF-Bold.otf);
+} 
+    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #262626;
+    color: #ebebeb;
+    min-height: 200vh;
+}
+/* Header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 35px ;
+    padding-top: 32%;
+}
+
+.sticky {
+    background: #121212;
+    padding: 10px 50px;
+}
+
+
+header .logo{
+    position: relative;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'IntegralCF_heavy';
+    color: #ebebeb;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+.logo img {
+    width: 65px;
+    height: auto;
+    display: flex;
+} 
+
+header ul {
+    position: relative;
+    top: -30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+
+}
+header ul li a { 
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ebebeb;
+    font-family: 'IntegralCF_heavy';
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+.sticky .logo{
+    display: flex;
+    top: 9px;
+}
+
+.sticky ul li a {
+    color: #ebebeb;
+    display: flex;
+    top: 9px;
+}
+
+/* hero heading */
+.hero_heading{
+   margin-left: 1.4%;
+   margin-right: 1.4%;
+   width: max-content;
+   letter-spacing: 4px;
+   
+}
+.hero_heading .lastname{
+    padding-left: 33%;
+}
+
+.hero_heading h1 {
+    font-size: 12.3vw;
+    font-family: 'IntegralCF_heavy';
+}
+
